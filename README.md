@@ -48,3 +48,47 @@
      * Docs: https://coil-kt.github.io/coil/api/coil/index.html
      */
     implementation "io.coil-kt:coil-compose:2.2.2"
+    
+        // Mockk
+    testImplementation "io.mockk:mockk:1.13.4"
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+
+    // Unit testing coroutines
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4'
+    testImplementation 'androidx.arch.core:core-testing:2.1.0'
+    
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1"
+
+    //Room
+    implementation "androidx.room:room-ktx:2.5.0"
+    kapt "androidx.room:room-compiler:2.5.0"
+    
+    //Constraint
+    implementation "androidx.constraintlayout:constraintlayout-compose:1.0.1"
+
+    //Navigation compose
+    implementation "androidx.hilt:hilt-navigation-compose:1.0.0"
+    implementation "androidx.compose.runtime:runtime-livedata:$compose_ui_version"
+
+    //CameraX
+    def camerax_version = "1.0.2"
+    implementation "androidx.camera:camera-core:${camerax_version}"
+    implementation "androidx.camera:camera-camera2:${camerax_version}"
+    implementation "androidx.camera:camera-lifecycle:${camerax_version}"
+    implementation "androidx.camera:camera-view:1.0.0-alpha29"
+
+    //Barcode
+    implementation 'com.google.mlkit:barcode-scanning:17.0.0'
+
+    //Permission
+    implementation "com.google.accompanist:accompanist-permissions:0.19.0"
+
+    //Swipe and refresh
+    implementation "me.saket.swipe:swipe:1.1.1"
+
+
