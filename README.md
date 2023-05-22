@@ -1,7 +1,6 @@
 # Dependencies
 
-```grovy
-
+```kotlin
     /**
      * GSON - A Java library that can be used to convert Java Objects into their JSON representation and vice versa.
      * Docs: https://www.javadoc.io/doc/com.google.code.gson/gson/latest/index.html
@@ -29,6 +28,15 @@
     implementation 'com.google.dagger:hilt-android:2.45'
     kapt 'com.google.dagger:hilt-android-compiler:2.45'
     implementation "androidx.hilt:hilt-navigation-compose:1.0.0"
+    
+    plugins {
+   
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+}
+
+    //Project
+    id 'com.google.dagger.hilt.android' version '2.44.2' apply false
 
     /**
      * Coroutines - A library for writing asynchronous, non-blocking code in a more concise and structured way.
