@@ -90,5 +90,26 @@
 
     //Swipe and refresh
     implementation "me.saket.swipe:swipe:1.1.1"
+    
+    /**
+     * Mockk library for creating mock objects in tests.
+     */
+    testImplementation "io.mockk:mockk:1.13.4"
+    androidTestImplementation "io.mockk:mockk-android:1.13.4"
+
+    /**
+     * JUnit 4 for unit testing.
+     */
+    testImplementation 'junit:junit:4.13.2'
+
+    /**
+     * AndroidX JUnit extension for running JUnit tests on Android.
+     */
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+
+    /**
+     * Kotlin coroutines test library for testing coroutines in unit tests.
+     */
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4'
 
 
