@@ -49,6 +49,12 @@
      */
     implementation "io.coil-kt:coil-compose:2.2.2"
     
+    /**
+     * Glide
+     */
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    kapt 'com.github.bumptech.glide:compiler:4.12.0'
+    
         // Mockk
     testImplementation "io.mockk:mockk:1.13.4"
     testImplementation 'junit:junit:4.13.2'
