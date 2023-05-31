@@ -48,6 +48,9 @@
      * Docs: https://coil-kt.github.io/coil/api/coil/index.html
      */
     implementation "io.coil-kt:coil-compose:2.2.2"
+    //Coil gift
+    implementation("io.coil-kt:coil-gif:2.4.0")
+
     
     /**
      * Glide
