@@ -50,7 +50,6 @@
     implementation "io.coil-kt:coil-compose:2.2.2"
     //Coil gift
     implementation("io.coil-kt:coil-gif:2.4.0")
-
     
     /**
      * Glide
@@ -58,7 +57,10 @@
     implementation 'com.github.bumptech.glide:glide:4.12.0'
     kapt 'com.github.bumptech.glide:compiler:4.12.0'
     
-        // Mockk
+    //PICASSO
+    implementation "com.squareup.picasso:picasso:2.71828"
+    
+    // Mockk
     testImplementation "io.mockk:mockk:1.13.4"
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
@@ -120,5 +122,23 @@
      * Kotlin coroutines test library for testing coroutines in unit tests.
      */
     testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4'
+    
+    // Dependency for Exoplayer
+    implementation 'com.google.android.exoplayer:exoplayer:2.18.2'
+
+    // for core support in exoplayer.
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.18.2'
+
+    // for adding dash support in our exoplayer.
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.18.2'
+
+    // for adding hls support in exoplayer.
+    implementation 'com.google.android.exoplayer:exoplayer-hls:2.18.2'
+
+    // for smooth streaming of video in our exoplayer.
+    implementation 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.2'
+
+    // for generating default ui of exoplayer
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.18.2'
 
 
