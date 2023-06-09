@@ -36,6 +36,12 @@
            }
 
     id 'com.google.dagger.hilt.android' version '2.44.2' apply false
+    
+    
+      /**
+       * Koin for Android
+       **/
+    implementation "io.insert-koin:koin-android:$koin_version"
 
     /**
      * Coroutines - A library for writing asynchronous, non-blocking code in a more concise and structured way.
