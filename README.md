@@ -146,5 +146,18 @@
 
     // for generating default ui of exoplayer
     implementation 'com.google.android.exoplayer:exoplayer-ui:2.18.2'
+    
+    //Agora vide call
+    
+    allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+
+dependencies {
+  implementation 'com.github.AgoraIO-Community:VideoUIKit-Android:version'
+}
 
 
