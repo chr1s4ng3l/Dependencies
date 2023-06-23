@@ -1,17 +1,14 @@
 # Dependencies
 
 ```kotlin
-
     /**
      * GSON - A Java library that can be used to convert Java Objects into their JSON representation and vice versa.
      * Docs: https://www.javadoc.io/doc/com.google.code.gson/gson/latest/index.html
      **/
     implementation 'com.google.code.gson:gson:2.10.1'
-
-    /**
-     * Moshi - is a modern JSON library for Android and Java. The moshi-kotlin artifact contains Kotlin adapters for Moshi, which enable seamless serialization and 
-     * deserialization of Kotlin classes.
-    /**
+    
+     // Moshi - is a modern JSON library for Android and Java. The moshi-kotlin artifact contains Kotlin adapters for Moshi, which enable seamless serialization and 
+     // deserialization of Kotlin classes.
     implementation("com.squareup.moshi:moshi-kotlin:1.14.0")
 
     /*
