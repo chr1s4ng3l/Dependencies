@@ -1,6 +1,7 @@
 # Dependencies
 
 ```kotlin
+
     /**
      * GSON - A Java library that can be used to convert Java Objects into their JSON representation and vice versa.
      * Docs: https://www.javadoc.io/doc/com.google.code.gson/gson/latest/index.html
