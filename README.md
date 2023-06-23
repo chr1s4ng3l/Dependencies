@@ -7,6 +7,12 @@
      **/
     implementation 'com.google.code.gson:gson:2.10.1'
 
+    /**
+     * Moshi - is a modern JSON library for Android and Java. The moshi-kotlin artifact contains Kotlin adapters for Moshi, which enable seamless serialization and 
+     * deserialization of Kotlin classes.
+    /**
+    implementation("com.squareup.moshi:moshi-kotlin:1.14.0")
+
     /*
      * Retrofit - A type-safe HTTP client for Android and Java.
      * Docs: https://square.github.io/retrofit/2.x/retrofit/
