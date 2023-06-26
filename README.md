@@ -109,6 +109,9 @@
     //Permission
     implementation "com.google.accompanist:accompanist-permissions:0.19.0"
 
+    //WorkManager
+    implementation "androidx.work:work-runtime-ktx:$work_version"
+
     //Swipe and refresh
     implementation "me.saket.swipe:swipe:1.1.1"
     
