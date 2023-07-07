@@ -184,6 +184,12 @@ implementation 'com.jakewharton:butterknife:<latest_version>'
 //LeakCanary: A memory leak detection library that helps identify and fix memory leaks in your app.
 implementation 'com.squareup.leakcanary:leakcanary-android:<latest_version>'
 
+//Firebase: A suite of tools and services provided by Google, including authentication, cloud messaging, real-time
+//database, and more.
+implementation 'com.google.firebase:firebase-analytics:<latest_version>'
+implementation 'com.google.firebase:firebase-auth:<latest_version>'
+
+
 
 
 
