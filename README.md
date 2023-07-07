@@ -189,6 +189,10 @@ implementation 'com.squareup.leakcanary:leakcanary-android:<latest_version>'
 implementation 'com.google.firebase:firebase-analytics:<latest_version>'
 implementation 'com.google.firebase:firebase-auth:<latest_version>'
 
+//RxJava: A library for composing asynchronous and event-based programs using observable sequences.
+implementation 'io.reactivex.rxjava3:rxjava:<latest_version>'
+
+
 
 
 
