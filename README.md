@@ -181,6 +181,9 @@ implementation 'com.google.android.material:material:<latest_version>'
 //ButterKnife: A view binding library that reduces boilerplate code for binding views and listeners.
 implementation 'com.jakewharton:butterknife:<latest_version>'
 
+//LeakCanary: A memory leak detection library that helps identify and fix memory leaks in your app.
+implementation 'com.squareup.leakcanary:leakcanary-android:<latest_version>'
+
 
 
 
