@@ -167,4 +167,12 @@ dependencies {
   implementation 'com.github.AgoraIO-Community:VideoUIKit-Android:version'
 }
 
+//Google maps api
+classpath 'com.google.gms:google-services:<latest_version>'
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+implementation 'com.google.android.gms:play-services-maps:<latest_version>'
+
 
