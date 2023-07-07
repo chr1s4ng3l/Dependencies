@@ -192,6 +192,8 @@ implementation 'com.google.firebase:firebase-auth:<latest_version>'
 //RxJava: A library for composing asynchronous and event-based programs using observable sequences.
 implementation 'io.reactivex.rxjava3:rxjava:<latest_version>'
 
+//Espresso: A testing framework for UI testing in Android, allowing you to write UI tests to validate user interactions.
+androidTestImplementation 'androidx.test.espresso:espresso-core:<latest_version>'
 
 
 
