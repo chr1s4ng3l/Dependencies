@@ -195,6 +195,9 @@ implementation 'io.reactivex.rxjava3:rxjava:<latest_version>'
 //Espresso: A testing framework for UI testing in Android, allowing you to write UI tests to validate user interactions.
 androidTestImplementation 'androidx.test.espresso:espresso-core:<latest_version>'
 
+//Play Core: A library that provides in-app updates, in-app reviews, and other Play Store features for your app.\
+implementation 'com.google.android.play:core:<latest_version>'
+
 
 
 
