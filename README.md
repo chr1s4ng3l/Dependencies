@@ -176,8 +176,12 @@ apply plugin: 'com.google.gms.google-services'
 implementation 'com.google.android.gms:play-services-maps:<latest_version>'
 
 //Material Components: A set of UI components following the Material Design guidelines, including buttons, cards, etc.
-
 implementation 'com.google.android.material:material:<latest_version>'
+
+//ButterKnife: A view binding library that reduces boilerplate code for binding views and listeners.
+implementation 'com.jakewharton:butterknife:<latest_version>'
+
+
 
 
 
