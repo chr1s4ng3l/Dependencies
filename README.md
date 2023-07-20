@@ -197,3 +197,6 @@ androidTestImplementation 'androidx.test.espresso:espresso-core:<latest_version>
 
 //Play Core: A library that provides in-app updates, in-app reviews, and other Play Store features for your app.\
 implementation 'com.google.android.play:core:<latest_version>'
+
+//Files Transformation
+implementation 'commons-io:commons-io:2.7'
